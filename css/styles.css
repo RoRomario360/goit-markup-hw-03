@@ -266,7 +266,6 @@ img {
 }
 
 .our-team-list .item {
-  margin-right: 30px;
   text-align: center;
   background-color: var(--hero-title-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -293,8 +292,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-text-title-color);
 }
-.our-team-list-card {
-  margin-bottom: 30px;
+
+.media-team {
+  padding: 30px 60px;
 }
 
 /* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
