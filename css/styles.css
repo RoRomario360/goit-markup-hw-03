@@ -232,7 +232,7 @@ img {
   color: var(--second-text-title-color);
 }
 .our-work-section {
-  /* outline: 2px solid tomato; */
+  padding-bottom: 94px;
 }
 .our-work-list {
   display: flex;
