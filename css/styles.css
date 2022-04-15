@@ -56,7 +56,6 @@ img {
 
 /* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .header {
-  padding: 24px 0 25px 0px;
   border-bottom: 1px solid #eeeeee;
 
   /* outline: 2px solid tomato; */
@@ -77,6 +76,11 @@ img {
 }
 .header-list .item:last-child {
   margin-right: 0px;
+}
+.header-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo {
   margin-right: 93px;
@@ -243,16 +247,23 @@ img {
 .our-work-title {
   margin-bottom: 50px;
   text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-title-color);
 }
 /* ---------------------------------НАША КОМАНДА----------------------------------- */
 .our-team-section {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 49px;
+  padding-bottom: 94px;
   /* outline: 2px solid tomato; */
 }
 .our-team {
-  padding-bottom: 94px;
+  margin-bottom: 50px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -301,13 +312,13 @@ img {
 /* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
 
 .portfolio-section {
-  padding-top: 98px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-buttons-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 46px;
+  margin-bottom: 50px;
 }
 .portfolio-buttons-list .item {
   margin-right: 8px;
@@ -316,6 +327,7 @@ img {
   margin-right: 0;
 }
 .portfolio-button {
+  padding: 6px 22px 6px 22px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -356,6 +368,7 @@ img {
 }
 
 .portfolio-title {
+  margin-bottom: 4px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
